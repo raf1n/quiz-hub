@@ -1,7 +1,7 @@
 # Project Info
 
-Name: Quiz Hub
-Description: A tech Quiz App
+Name: Quiz Hub.\
+Description: A tech Quiz App.\
 Specification :
 
 # Getting Started with Create React App
