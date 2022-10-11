@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -27,13 +27,44 @@ const NavBar = () => {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <Link to="topics">Topics</Link>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "bg-blue-400" : undefined
+                }
+                to="home"
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <Link>Blog</Link>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "bg-blue-400" : undefined
+                }
+                to="blog"
+              >
+                Blog
+              </NavLink>
             </li>
             <li>
-              <Link>Statistics</Link>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "bg-blue-400" : undefined
+                }
+                to="statistics"
+              >
+                Statistics
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "bg-blue-400" : undefined
+                }
+                to="about"
+              >
+                About Us
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -42,15 +73,46 @@ const NavBar = () => {
         </Link>
       </div>
       <div className="navbar-end hidden lg:flex">
-        <ul className="menu menu-horizontal p-0">
+        <ul className="menu menu-horizontal flex gap-2 p-0">
           <li>
-            <Link>Topics</Link>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "bg-blue-400" : undefined
+              }
+              to="home"
+            >
+              Home
+            </NavLink>
           </li>
           <li>
-            <Link>Blog</Link>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "bg-blue-400" : undefined
+              }
+              to="blog"
+            >
+              Blog
+            </NavLink>
           </li>
           <li>
-            <Link>Statistics</Link>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "bg-blue-400" : undefined
+              }
+              to="statistics"
+            >
+              Statistics
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "bg-blue-400" : undefined
+              }
+              to="about"
+            >
+              About Us
+            </NavLink>
           </li>
         </ul>
       </div>
