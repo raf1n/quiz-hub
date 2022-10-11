@@ -4,9 +4,14 @@ import QuizQuestion from "../QuizQuestion/QuizQuestion";
 
 const Quiz = () => {
   const quizData = useLoaderData();
-  const quizes = quizData.data;
+  const quizQuestionData = quizData.data.questions;
+
   return (
-    <div>{<QuizQuestion key={quizes.id} quizes={quizes}></QuizQuestion>}</div>
+    <div>
+      {quizQuestionData.map((quizQuestion, indx) => (
+        <QuizQuestion key={indx} quizQuestion={quizQuestion}></QuizQuestion>
+      ))}
+    </div>
   );
 };
 
