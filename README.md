@@ -10,3 +10,5 @@ Specification :
 4. Showing quizes according to topics.
 5. Validating Answer with the selected Option.
 6. React-Toastify Integration
+7. Q/A Blog
+8. Statistics of Total Quiz Data
