@@ -4,7 +4,7 @@ const QuizOptions = ({ option, validate }) => {
   return (
     <div className="mb-2 mt-2 flex justify-center">
       <div
-        className="border pl-5 rounded-md w-[100%] lg:w-[650px] lg:h-[66px] h-[100%] border-blue-400-600 p-2 flex justify-center lg:justify-start shadow-md cursor-pointer"
+        className="border pl-5 rounded-md w-[100%] lg:w-[650px] lg:h-[66px] h-[100%] border-blue-400-600 p-2 flex justify-center lg:justify-start shadow-md cursor-pointer hover:bg-slate-200"
         onClick={(e) => validate(e.target.innerText)}
       >
         <h1 className="flex justify-center items-center">{option}</h1>
