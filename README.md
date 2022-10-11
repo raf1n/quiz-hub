@@ -2,10 +2,11 @@
 
 Name: Quiz Hub.\
 Description: A tech Quiz App.\
-Specification : \
+Specification :
 
-1. React Router Integrated Routes.\
-2. Responsive NavBar.\
-3. Quiz selection according to Topics.\
-4. Showing quizes according to topics.\
-5. Validating Answer with the selected Option.\
+1. React Router Integrated Routes.
+2. Responsive NavBar.
+3. Quiz selection according to Topics.
+4. Showing quizes according to topics.
+5. Validating Answer with the selected Option.
+6. React-Toastify Integration
