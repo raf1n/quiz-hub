@@ -11,7 +11,7 @@ Specification :
 5. Validating Answer with the selected Option.
 6. React-Toastify Integration
 7. Q/A Blog
-8. Statistics of Total Quiz Data
+8. Statistics of Total Quiz Data using recharts
 
 # Live Link
 
