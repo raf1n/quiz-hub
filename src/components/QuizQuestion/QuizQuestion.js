@@ -25,7 +25,7 @@ const QuizQuestion = ({ quizQuestion }) => {
           <EyeIcon
             title="Show Correct Answer"
             onClick={iconAnsShow}
-            className="w-6 text-end mr-2"
+            className="w-6 text-end mr-2 cursor-pointer"
           ></EyeIcon>
         </div>
         <div>

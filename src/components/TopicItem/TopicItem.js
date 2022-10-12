@@ -6,6 +6,7 @@ const TopicItem = ({ topic }) => {
   const { id, name, total, logo } = topic;
   const handleQuizTopic = (id) => {
     navigate(`quiz/${id}`);
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
   return (
     <div className="card card-compact rounded-lg w-72 bg-base-100 shadow-xl">
