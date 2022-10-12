@@ -1,8 +1,8 @@
 # Project Info
 
 Name: Quiz Hub.\
-Description: A tech Quiz App.\
-Technology used: Tailwind, React, React-Toastify , React-Router.\
+Description: A tech quiz app that allows users to explore the quiz subjects and assess their knowledge by responding to the question. Clicking the quiz options will provide the opportunity to validate the quiz's questions and answers. There is also a stat chart with a total quiz on the relevant topic. A blog with some frequently asked tech questions is linked.\
+Technology used: Tailwind, React, React-Toastify, React-Router, Recharts.\
 Specification :
 
 1. React Router Integrated Routes.
