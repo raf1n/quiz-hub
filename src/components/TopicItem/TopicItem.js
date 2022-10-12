@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import { ChevronDoubleRightIcon } from "@heroicons/react/24/solid";
 const TopicItem = ({ topic }) => {
   const navigate = useNavigate();
   const { id, name, total, logo } = topic;
@@ -14,13 +14,18 @@ const TopicItem = ({ topic }) => {
       </figure>
       <div className="card-body">
         <h2 className="card-title">{name}</h2>
-        <p className="text-center font-medium">Total Quiz: {total}</p>
+        <p className="font-semibold text-emerald-900 text-center">
+          Total Quiz: {total}
+        </p>
         <div className="card-actions justify-end">
           <button
             onClick={() => handleQuizTopic(id)}
             className="btn btn-wide btn-outline"
           >
-            Start
+            <div className="flex items-center">
+              <p>Start</p>
+              <ChevronDoubleRightIcon className="w-4"></ChevronDoubleRightIcon>
+            </div>
           </button>
         </div>
       </div>
