@@ -2,7 +2,6 @@ import { createBrowserRouter } from "react-router-dom";
 import About from "../About/About";
 import Blog from "../Blog/Blog";
 import ErrorPage from "../ErrorPage/ErrorPage";
-import Header from "../Header/Header";
 import Home from "../Home/Home";
 import Quiz from "../Quiz/Quiz";
 import Root from "../Root/Root";
@@ -22,7 +21,7 @@ export const router = createBrowserRouter([
         children: [
           {
             path: "home",
-            element: <Header></Header>,
+            element: <Home></Home>,
           },
         ],
       },

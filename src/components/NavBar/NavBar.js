@@ -29,7 +29,7 @@ const NavBar = () => {
             <li>
               <NavLink
                 className={({ isActive }) =>
-                  isActive ? "bg-gray-700  text-white" : undefined
+                  isActive ? "bg-gray-700 text-white" : undefined
                 }
                 to="home"
               >
@@ -39,7 +39,7 @@ const NavBar = () => {
             <li>
               <NavLink
                 className={({ isActive }) =>
-                  isActive ? "bg-gray-700  text-white" : undefined
+                  isActive ? "bg-gray-700 text-white" : undefined
                 }
                 to="blog"
               >
@@ -49,7 +49,7 @@ const NavBar = () => {
             <li>
               <NavLink
                 className={({ isActive }) =>
-                  isActive ? "bg-gray-700  text-white" : undefined
+                  isActive ? "bg-gray-700 text-white" : undefined
                 }
                 to="statistics"
               >
@@ -59,7 +59,7 @@ const NavBar = () => {
             <li>
               <NavLink
                 className={({ isActive }) =>
-                  isActive ? "bg-gray-700  text-white" : undefined
+                  isActive ? "bg-gray-700 text-white" : undefined
                 }
                 to="about"
               >
@@ -77,7 +77,7 @@ const NavBar = () => {
           <li>
             <NavLink
               className={({ isActive }) =>
-                isActive ? "bg-gray-700  text-white text-white" : undefined
+                isActive ? "bg-gray-700 text-white" : undefined
               }
               to="home"
             >
@@ -87,7 +87,7 @@ const NavBar = () => {
           <li>
             <NavLink
               className={({ isActive }) =>
-                isActive ? "bg-gray-700  text-white" : undefined
+                isActive ? "bg-gray-700 text-white" : undefined
               }
               to="blog"
             >
@@ -97,7 +97,7 @@ const NavBar = () => {
           <li>
             <NavLink
               className={({ isActive }) =>
-                isActive ? "bg-gray-700  text-white" : undefined
+                isActive ? "bg-gray-700 text-white" : undefined
               }
               to="statistics"
             >
@@ -107,7 +107,7 @@ const NavBar = () => {
           <li>
             <NavLink
               className={({ isActive }) =>
-                isActive ? "bg-gray-700  text-white" : undefined
+                isActive ? "bg-gray-700 text-white" : undefined
               }
               to="about"
             >

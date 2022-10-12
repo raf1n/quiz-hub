@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet, useLoaderData } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 import Header from "../Header/Header";
 import TopicItem from "../TopicItem/TopicItem";
 
