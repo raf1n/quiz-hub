@@ -9,7 +9,7 @@ const Blog = () => {
         </div>
       </div>
       <div className="max-w-screen-xl sm:mx-auto">
-        <div className="grid grid-cols-3 gap-5">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-5">
           <div>
             <p className="mb-4 text-xl font-medium">
               What is the purpose of React Router?
