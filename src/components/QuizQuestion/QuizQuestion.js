@@ -29,7 +29,7 @@ const QuizQuestion = ({ quizQuestion }) => {
           ></EyeIcon>
         </div>
         <div>
-          <div className="grid sm:grid-cols-1 lg:grid-cols-2 text-center mb-2">
+          <div className="grid sm:grid-cols-1 lg:grid-cols-2 text-center mb-2 p-4 lg:px-6">
             {options.map((option, indx) => (
               <QuizOptions
                 validate={validate}
